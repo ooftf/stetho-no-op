@@ -13,3 +13,5 @@
 .externalNativeBuild
 /.idea/markdown-navigator/
 /.idea/inspectionProfiles/
+/.idea/vcs.xml
+/.idea/markdown-navigator.xml
