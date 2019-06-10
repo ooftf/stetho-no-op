@@ -27,7 +27,7 @@ publish {
     userOrg = 'ooftf'      // bintray注册的用户名
     groupId = 'com.ooftf'
     artifactId = "stetho-no-op"// bintray创建的package
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'nothing'
     bintrayUser = 'ooftf'
     bintrayKey = LocalBintrayKey()
@@ -45,5 +45,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.squareup.okhttp3:okhttp:3.14.2'
+    compileOnly 'com.squareup.okhttp3:okhttp:3.14.2'
 }
